@@ -29,9 +29,20 @@ p {
   cursor: pointer;
   border-radius: 5px;
   font-size: 12px;
+  padding: 10px 25px;
+  font-size: 18px;
+  border: none;
+}
+.btn2 {
+  color: #fff;
+  background: #4E9F3D;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px;
   padding: 10px 20px;
   font-size: 18px;
   border: none;
+  width: 100%;
 }
 
 .money-img {
@@ -39,7 +50,6 @@ p {
 }
 
 .currency {
-  padding: 40px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,9 +70,11 @@ p {
   font-size: 30px;
   text-align: right;
   color: #fff;
+  width: 100%;
 }
 
 .swap-rate-container {
+  margin: 25px 0px 10px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -79,12 +91,15 @@ input:focus,
 button:focus {
   outline: 0;
 }
-#amount-two{
- width: 100%;
-padding: 10px ;
- text-align: right;
- border: 1px solid #77D970;
+
+#amount-two {
+  width: 100%;
+  padding: 4px 16px;
+  text-align: right;
+  font-size: 25px;
+  border: 1px solid #77D970;
 }
+
 @media (max-width: 600px) {
   .currency input {
     width: 200px;
